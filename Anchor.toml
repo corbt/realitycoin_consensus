@@ -1,7 +1,7 @@
 [features]
 seeds = false
 [programs.localnet]
-realitycoin_consensus = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+realitycoin_consensus = "9bP6UsBbWu1NQdco93V38CfhhNEracDuGA5VEhWpPXB8"
 
 [registry]
 url = "https://anchor.projectserum.com"
@@ -11,4 +11,4 @@ cluster = "localnet"
 wallet = "/Users/kyle/.config/solana/id.json"
 
 [scripts]
-test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+test = "yarn jest"
